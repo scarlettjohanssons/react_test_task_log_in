@@ -1,0 +1,91 @@
+.form {
+  width: 360px;
+  height: 578px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 24px 48px 32px;
+  background: #FFFFFF;
+  border: 1px solid #E2E9F3;
+  border-radius: 6px;
+
+  &__name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    font-style: normal;
+    color: #2B3151;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  &__registration {
+    color: #2B3151;
+    font-size: 16px;
+  }
+
+  &__sign-up {
+    color: #2856AE;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  &__line {
+    margin-top: 12px;
+    margin-bottom: 14px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__left-line {
+    height: 1px;
+    width: 107px;
+    background: #E2E9F3;
+  }
+
+  &__between-line {
+    padding: 0 16px;
+    font-size: 18px;
+    color: #8C93A3;
+  }
+
+  &__right-line {
+    height: 1px;
+    width: 107px;
+    background: #E2E9F3;
+  }
+
+  &__forgot-pass {
+    font-size: 16px;
+    line-height: 160%;
+    color: #2856AE;
+    margin: 0;
+    margin-top: 24px;
+    cursor: pointer;
+  }
+
+  &__forgot-pass-link {
+    text-decoration: none;
+  }
+
+  &__btn-submit {
+    width: 264px;
+    height: 48px;
+    font-size: 18px;
+    color: #FFF;
+    background: #3EBF8A;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+
+  &__btn-submit:hover {
+    background: #008960;
+  }
+}

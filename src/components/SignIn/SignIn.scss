@@ -1,0 +1,57 @@
+.sign-in {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  &__email {
+    width: 264px;
+    height: 40px;
+    padding: 11px 8px 10px;
+    border: 1px solid #CDD7E5;
+    background: #FCFDFF;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+    color: #2B3151;
+  }
+
+  &__password {
+    width: 264px;
+    height: 40px;
+    padding: 11px 8px 10px;
+    border: 1px solid #CDD7E5;
+    background: #FCFDFF;
+    outline: none;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+
+  &__error-email {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 12px;
+    color: #E1485B;
+  }
+
+  &__true-email {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    font-size: 12px;
+    color: #E1485B;
+  }
+
+  &__error-password {
+    position: absolute;
+    right: 0;
+    bottom: -15px;
+    font-size: 12px;
+    color: #E1485B;
+  }
+
+  &__red {
+    border-color: red;
+  }
+}

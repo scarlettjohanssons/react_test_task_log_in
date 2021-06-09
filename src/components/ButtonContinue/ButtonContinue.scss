@@ -1,0 +1,50 @@
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__continue-with-google {
+    width: 264px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 17.4px;
+    padding: 9.4px 13.4px;
+    color: #2856AE;
+    border: 1px solid #CDD7E5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    background: #FCFDFF;
+  }
+
+  &__google-icon {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background-image: url(../../images/google_icon.svg);
+  }
+
+  &__continue-with-microsoft {
+    width: 264px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    gap: 17.4px;
+    padding: 9.4px 13.4px;
+    color: #2856AE;
+    border: 1px solid #CDD7E5;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    background: #FCFDFF;
+  }
+
+  &__microsoft-icon {
+    display: inline-block;
+    height: 26px;
+    width: 26px;
+    background-image: url(../../images/microsoft_icon.svg);
+  }
+}
